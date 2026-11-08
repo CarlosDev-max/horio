@@ -1,3 +1,4 @@
+import builtins
 import time
 import datetime
 import random
@@ -20,7 +21,7 @@ def year() -> str:
 def diff(start: float, end: float) -> float:
     return end - start
 def print(message: str) -> None:
-    print(message)
+    builtins.print(message)
 def now() -> str:
     return time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
 def now_unix() -> float:
