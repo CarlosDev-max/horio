@@ -1,0 +1,14 @@
+[project]
+name = "horio"
+version = "0.1.0"
+description = "Un pequeño paquete de python para la hora diseñado para ser legible para humanos y computadoras a la vez."
+readme = "README.md"
+authors = [
+    { name = "CarlosDev-max", email = "carlitosmanzi16@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[build-system]
+requires = ["uv_build>=0.13.7,<0.14.0"]
+build-backend = "uv_build"

@@ -1,0 +1,1 @@
+Un pequeño paquete de python para la hora diseñado para ser legible para humanos y computadoras a la vez.
